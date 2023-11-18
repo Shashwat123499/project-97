@@ -57,7 +57,7 @@ function keypress(event) {
   function logout() {
     localStorage.removeItem("user_name");
     localStorage.removeItem("room_name");
-    window.location = index.html;
+    window.location = "index.html";
   }
 
   function updateLike(message_id) {
